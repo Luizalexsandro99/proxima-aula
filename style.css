@@ -1,0 +1,112 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: rgba(129, 129, 255, 0.822);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #00000086;
+}
+
+header > h1 {
+    font-size: 1.8em; /* Ajustando tamanho font responsiva in css */
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.521);
+}
+
+main {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    background-color: #9adfdf91;
+    padding: 10px;
+}
+
+main > h2 {
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.26), transparent);
+    border-radius: 9px;
+    margin-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#ftscrum {
+    display: block;
+    margin: auto;
+}
+
+#scrum > h3 {
+    margin-top: 8px;
+    text-decoration: underline;
+}
+
+#scrum > p {
+    line-height: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 8px;
+}
+
+#linkscrum { /* link in p */
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#proxima {
+    margin-top: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.26), transparent);
+    border-radius: 9px;
+    margin-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#fotoreuniao {
+    display: block;
+    margin: auto;
+}
+
+#entrevista > h3 {
+    text-decoration: underline;
+    margin-top: 8px;
+}
+
+#entrevista > p {
+    text-align: justify;
+    text-indent: 8px;
+    margin-top: 8px;
+    line-height: 20px;
+}
+
+#imgcircle {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+}
+
+#circular > h3 {
+    text-decoration: underline;
+    margin-top: 8px;
+}
+
+#circular > p {
+    margin-top: 8px;
+    text-align: justify;
+    text-indent: 8px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #9adfdfe7;
+    padding: 8px;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
